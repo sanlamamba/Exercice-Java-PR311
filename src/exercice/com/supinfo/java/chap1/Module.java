@@ -1,4 +1,4 @@
-package exerciceclass.com.supinfo.java.chap1;
+package exercice.com.supinfo.java.chap1;
 
 public class Module {
     private int id;

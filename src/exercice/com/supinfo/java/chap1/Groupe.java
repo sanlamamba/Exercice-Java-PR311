@@ -1,4 +1,4 @@
-package exerciceclass.com.supinfo.java.chap1;
+package exercice.com.supinfo.java.chap1;
 
 import java.time.LocalDate;
 
