@@ -38,20 +38,20 @@ public class Salle {
         this.capacite = capacite;
     }
 
-    public static void main(String[] args) {
-        Salle centrino = new Salle();
-
-        centrino.setId(1);
-        centrino.setNom("Centrino");
-        centrino.setLocalisation("La salle du milieu");
-        centrino.setCapacite(20);
-
-        System.out.println(centrino);
-    }
-
     @Override
     public String toString() {
         return "Salle [capacite=" + capacite + ", id=" + id + ", localisation=" + localisation + ", nom=" + nom + "]";
+    }
+
+    public static void main(String[] args) {
+        Salle salle = new Salle();
+
+        salle.setId(1);
+        salle.setNom("Centrino");
+        salle.setLocalisation("La salle du milieu");
+        salle.setCapacite(20);
+
+        System.out.println(salle);
     }
 
 }

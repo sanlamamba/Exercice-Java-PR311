@@ -47,22 +47,21 @@ public class Module {
         this.coefficient = coefficient;
     }
 
-    public static void main(String[] args) {
-        Module java = new Module();
-        java.setId(1);
-        java.setNom("Java");
-        java.setDescription(
-                "Java est un langage de programmation de haut niveau, basé sur des classes et orienté objet, qui est conçu pour avoir le moins de dépendances d'implémentation possible.");
-        java.setVolumeHoraire(20);
-        java.setCoefficient(4);
-
-        System.out.println(java);
-    }
-
     @Override
     public String toString() {
         return "Module [coefficient=" + coefficient + ", description=" + description + ", id=" + id + ", nom=" + nom
                 + ", volumeHoraire=" + volumeHoraire + "H" + "]";
     }
 
+    public static void main(String[] args) {
+        Module module = new Module();
+        module.setId(1);
+        module.setNom("Java");
+        module.setDescription(
+                "Java est un langage de programmation de haut niveau, basé sur des classes et orienté objet, qui est conçu pour avoir le moins de dépendances d'implémentation possible.");
+        module.setVolumeHoraire(20);
+        module.setCoefficient(4);
+
+        System.out.println(module);
+    }
 }
